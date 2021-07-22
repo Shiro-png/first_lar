@@ -15,3 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//get all tasks
+Route::get('/tasks', function(){
+    return view('tasks.index');
+});
+
+Route::get('/tasks/create', function(){
+
+});
